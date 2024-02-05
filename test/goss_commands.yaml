@@ -71,3 +71,7 @@ command:
   rg:
     exec: rg --version
     exit-status: 0
+
+  sops:
+    exec: sops --version
+    exit-status: 0
