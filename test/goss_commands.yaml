@@ -44,6 +44,10 @@ command:
     exec: helm version
     exit-status: 0
 
+  helmfile:
+    exec: helmfile version
+    exit-status: 0
+
   jq:
     exec: jq --version
     exit-status: 0
