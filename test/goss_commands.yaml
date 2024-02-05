@@ -1,5 +1,13 @@
 ---
 command:
+  age:
+    exec: age --help
+    exit-status: 0
+
+  age-keygen:
+    exec: age-keygen --help
+    exit-status: 0
+
   bat:
     exec: bat --version
     exit-status: 0
@@ -70,4 +78,8 @@ command:
 
   rg:
     exec: rg --version
+    exit-status: 0
+
+  sops:
+    exec: sops --version
     exit-status: 0
